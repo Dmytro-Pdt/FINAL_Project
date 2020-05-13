@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+}
+.small-header {
+    background-color: rgb(242,242,242);
+}
+.wrapper {
+    width: 1290px;
+    margin: 0 auto;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+}
+.bottom-header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.head-menu li, .main-menu li {
+    display: inline-block;
+}
+.mova {
+    position: relative;
+}
+.mova ul {
+    display: none;
+    position: absolute;
+}
+.mova:hover ul {
+    display: block;
+}
+ul.social-media li {
+    display: inline-block;
+}
